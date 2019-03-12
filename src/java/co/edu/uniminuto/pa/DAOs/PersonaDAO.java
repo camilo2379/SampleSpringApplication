@@ -44,7 +44,7 @@ public class PersonaDAO {
             pstmt.setString(8, p.getTelef());
             pstmt.setString(9, p.getEmail());
             pstmt.setString(10, p.getfNacimiento());
-            pstmt.setString(11, p.getId_TipoP());
+            pstmt.setString(11, p.getTipoP());
             
             pstmt.execute();
             
@@ -70,7 +70,7 @@ public class PersonaDAO {
             Statement s = con.createStatement();
             ResultSet rs = s.executeQuery ("select identificacion, nombre_1,nombre_2, "
                     + " apellido_1, apellido_2, genero, telefono, email, "
-                    + " fecha_nacimiento, id_TipoP, id_persona "
+                    + " fecha_nacimiento, tipo_persona, id_persona "
                     + " from persona "
                     + " where "
                     + " identificacion='" + p.getIdentificacion()+"'");
@@ -87,7 +87,7 @@ public class PersonaDAO {
                 per.setTelef(rs.getString(7));
                 per.setEmail(rs.getString(8));
                 per.setfNacimiento(rs.getString(9));
-                per.setId_TipoP(rs.getString(10));
+                per.setTipoP(rs.getString(10));
                 per.setId(rs.getInt(11));
                 
                 datos.add(per);
@@ -144,6 +144,7 @@ public class PersonaDAO {
                     + " , telefono=?"
                     + " , email=?"
                     + " , fecha_nacimiento=?"
+                    + " , tipo_persona=? "
                     + " where id_persona=?");
                         
             pstmt.setString(1, p.getIdentificacion());
@@ -155,7 +156,8 @@ public class PersonaDAO {
             pstmt.setString(7,p.getTelef());
             pstmt.setString(8,p.getEmail());
             pstmt.setString(9,p.getfNacimiento());
-            pstmt.setInt(10, p.getId());
+            pstmt.setString(10,p.getTipoP());
+            pstmt.setInt(11, p.getId());
             
             pstmt.executeUpdate();
             

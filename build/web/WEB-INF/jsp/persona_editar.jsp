@@ -92,21 +92,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<li><a class="hvr-sweep-to-bottom" href="personaEditar.htm">Editar</a></li>
 									</ul>
 								</li>
-                                                                <li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Vehiculo<span class="caret"></span></a>
-									<ul class="dropdown-menu">
-										<li><a class="hvr-sweep-to-bottom" href="vehiculoCrear.htm">Crear</a></li>
-										<li><a class="hvr-sweep-to-bottom" href="vehiculoConsultar.htm">Consultar</a></li>
-										<li><a class="hvr-sweep-to-bottom" href="vehiculoEditar.htm">Editar</a></li>
-									</ul>
-								</li>
-                                                                 <li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Venta<span class="caret"></span></a>
-									<ul class="dropdown-menu">
-										<li><a class="hvr-sweep-to-bottom" href="ventaCrear.htm">Crear</a></li>
-										<li><a class="hvr-sweep-to-bottom" href="ventaConsultar.htm">Consultar</a></li>
-										<li><a class="hvr-sweep-to-bottom" href="ventaEditar.htm">Editar</a></li>
-									</ul>
-								</li>
-                                                                
+                                                           
+                                              
 								<li><a href="blog.html" class="hvr-sweep-to-bottom">Blog</a></li>
 								<li><a href="mail.html" class="hvr-sweep-to-bottom">Mail Us</a></li>
 							</ul>
@@ -150,7 +137,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             <input type="date" name="fecha" value="${listaPersonas.get(0).getfNacimiento()}" >
                                             <input type="text" name="telefono" value="${listaPersonas.get(0).getTelef()}" >
                                             <input type="email" name="email" value="${listaPersonas.get(0).getEmail()}" >
-
+                                            <input type="text" name="tipop" value="${listaPersonas.get(0).getTipoP()}" >
                                             <input type="hidden" name="id" value="${listaPersonas.get(0).getId()}">
                                             
                                             <input type="submit" value="EDITAR">

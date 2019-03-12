@@ -18,7 +18,7 @@ public class Persona {
             String apellido1 = null;
             String apellido2 = null;
             String genero = null;
-            String id_TipoP = null;
+            String tipoP = null;
             String fNacimiento = null;
             String telef = null;
             String email = null;    
@@ -79,12 +79,12 @@ public class Persona {
         this.genero = genero;
     }
 
-    public String getId_TipoP() {
-        return id_TipoP;
+    public String getTipoP() {
+        return tipoP;
     }
 
-    public void setId_TipoP(String id_TipoP) {
-        this.id_TipoP = id_TipoP;
+    public void setTipoP(String tipoP) {
+        this.tipoP = tipoP;
     }
 
     public String getfNacimiento() {

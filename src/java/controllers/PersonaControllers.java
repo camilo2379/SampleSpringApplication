@@ -72,7 +72,7 @@ public class PersonaControllers {
         p.setApellido1(apellido1);
         p.setApellido2(apellido2);
         p.setGenero(genero);
-        p.setId_TipoP(tipoP);
+        p.setTipoP(tipoP);
         p.setfNacimiento(fNacimiento);
         p.setTelef(telef);
         p.setEmail(email);                                    
@@ -191,7 +191,7 @@ public class PersonaControllers {
         p.setApellido1(apellido1);
         p.setApellido2(apellido2);
         p.setGenero(genero);
-        p.setId_TipoP(tipoP);
+        p.setTipoP(tipoP);
         p.setfNacimiento(fNacimiento);
         p.setTelef(telef);
         p.setEmail(email);

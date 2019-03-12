@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>VehiAlpes Inicio</title>
+<title>Hostin City a Hosting Category Flat Bootstrap responsive Website Template | Home :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Hosting City Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -78,7 +78,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="icon-bar"></span>
 					  </button>
 						<div class="w3layouts-logo">
-							<h1><a href="helloworld.htm">Vehi <span>Alpes</span></a></h1>
+							<h1><a href="index.html">Hosting <span>City</span></a></h1>
 						</div>
 					</div>
 
@@ -86,7 +86,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 						<nav>
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="helloworld.htm">Home</a></li>
+								<li class="active"><a href="index.html">Home</a></li>
 								<li><a href="about.html" class="hvr-sweep-to-bottom">About</a></li>
 								<li><a href="plans.html" class="hvr-sweep-to-bottom">Plans</a></li>
 								<li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Persona<span class="caret"></span></a>
@@ -94,20 +94,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<li><a class="hvr-sweep-to-bottom" href="personaCrear.htm">Crear</a></li>
 										<li><a class="hvr-sweep-to-bottom" href="personaConsultar.htm">Consultar</a></li>
 										<li><a class="hvr-sweep-to-bottom" href="personaEditar.htm">Editar</a></li>
-									</ul>
-								</li>
-                                                                <li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Vehiculo<span class="caret"></span></a>
-									<ul class="dropdown-menu">
-										<li><a class="hvr-sweep-to-bottom" href="vehiculoCrear.htm">Crear</a></li>
-										<li><a class="hvr-sweep-to-bottom" href="vehiculoConsultar.htm">Consultar</a></li>
-										<li><a class="hvr-sweep-to-bottom" href="vehiculoEditar.htm">Editar</a></li>
-									</ul>
-								</li>
-                                                                  <li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Venta<span class="caret"></span></a>
-									<ul class="dropdown-menu">
-										<li><a class="hvr-sweep-to-bottom" href="ventaCrear.htm">Crear</a></li>
-										<li><a class="hvr-sweep-to-bottom" href="ventaConsultar.htm">Consultar</a></li>
-										<li><a class="hvr-sweep-to-bottom" href="ventaEditar.htm">Editar</a></li>
 									</ul>
 								</li>
 								<li><a href="blog.html" class="hvr-sweep-to-bottom">Blog</a></li>
@@ -129,7 +115,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="images/3a.jpg" alt="Slider 1" />
 						</div>
 						<div class="col-md-6 content">
-							<h3>Vehi <span>Alpes</span></h3>
+							<h3>Hosting <span>City</span></h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur velit ac fringilla fermentum. Nulla sodales, magna eget pharetra feugiat, tellus metus lacinia nunc, nec vulputate purus nisl nec tortor. Mauris sem diam, interdum a euismod vitae, viverra non sapien. </p>
 						</div>
 						<div class="clearfix"> </div>

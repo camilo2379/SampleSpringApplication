@@ -170,7 +170,7 @@
               </div>
                   <div class="row form-group">
                   <label class="font-weight-bold" for="name">Tipo de Cliente</label>
-                  <input type="number" name="tipop"  id="fullname" class="form-control" placeholder="1. Cliente o 2. Administrador o 3. Otro" >  
+                  <input type="text" name="tipop"  id="fullname" class="form-control" placeholder=" Cliente o Administrador o Otro" >  
                 </div>
               <div class="row form-group">
                 <div class="col-md-12">

@@ -76,6 +76,22 @@
                               <li><a href="personaEditar.htm">Editar</a></li>
                             </ul>
                           </li>
+                          <li class="has-children">
+                            <a >Vehiculo</a>
+                            <ul class="dropdown">
+                              <li><a href="vehiculoCrear.htm">Registrar</a></li>
+                              <li><a href="vehiculoConsultar.htm">Consultar</a></li>
+                              <li><a href="vehiculoEditar.htm">Editar</a></li>
+                            </ul>
+                          </li>
+                          <li class="has-children">
+                            <a >Venta</a>
+                            <ul class="dropdown">
+                              <li><a href="ventaCrear.htm">Registrar</a></li>
+                              <li><a href="ventaConsultar.htm">Consultar</a></li>
+                              <li><a href="ventaEditar.htm">Editar</a></li>
+                            </ul>
+                          </li>
                         </ul>
                       </li>
                       <li><a href="../about.html">Nosotros</a></li>
@@ -169,8 +185,12 @@
                 </div>
               </div>
                   <div class="row form-group">
-                  <label class="font-weight-bold" for="name">Tipo de Cliente</label>
-                  <input type="text" name="tipop"  id="fullname" class="form-control" placeholder=" Cliente o Administrador o Otro" >  
+                  <label class="font-weight-bold" for="name">Tipo</label>
+                  <select  name="tipop" id="fullname" class="form-control" >
+                      <option selected="selected">Cliente</option>
+                      <option selected="selected">Administrador</option>  
+                      <option selected="selected">Otro</option> 
+                   </select>    
                 </div>
               <div class="row form-group">
                 <div class="col-md-12">

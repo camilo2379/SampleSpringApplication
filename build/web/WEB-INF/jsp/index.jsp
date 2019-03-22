@@ -70,7 +70,24 @@
                               <li><a href="personaEditar.htm">Editar</a></li>
                             </ul>
                           </li>
+                          <li class="has-children">
+                            <a >Vehiculo</a>
+                            <ul class="dropdown">
+                              <li><a href="vehiculoCrear.htm">Registrar</a></li>
+                              <li><a href="vehiculoConsultar.htm">Consultar</a></li>
+                              <li><a href="vehiculoEditar.htm">Editar</a></li>
+                            </ul>
+                          </li>
+                          <li class="has-children">
+                            <a >Venta</a>
+                            <ul class="dropdown">
+                              <li><a href="ventaCrear.htm">Registrar</a></li>
+                              <li><a href="ventaConsultar.htm">Consultar</a></li>
+                              <li><a href="ventaEditar.htm">Editar</a></li>
+                            </ul>
+                          </li>
                         </ul>
+                        
                       </li>
                       <li><a href="about.html">Nosotros</a></li>
                       <li><a href="contact.html">Contacto</a></li>

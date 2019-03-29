@@ -89,7 +89,7 @@
                         </ul>
                         
                       </li>
-                      <li><a href="about.html">Nosotros</a></li>
+                      <li><a href="catalogo.htm">Catalogo</a></li>
                       <li><a href="contact.html">Contacto</a></li>
                     </ul>
                   </div>
@@ -196,6 +196,9 @@
                 <h3 class="heading mb-0"><a href="#">Marca</a></h3>
               </div>
             </div>
+          </div>
+             <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+            <h2 class="mb-5">Conoce Mas En Nuestro Catalogo</h2>
           </div>
         </div>
       </div>

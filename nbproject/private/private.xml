@@ -3,18 +3,22 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/src/java/co/edu/uniminuto/pa/bds/MySqlDataSource.java</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/src/java/controllers/PersonaControllers.java</file>
             <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/web/WEB-INF/jsp/persona_editar.jsp</file>
+            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/src/java/co/edu/uniminuto/pa/DAOs/VentaDAO.java</file>
             <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/src/java/co/edu/uniminuto/pa/DAOs/PersonaDAO.java</file>
+            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/web/WEB-INF/jsp/persona_crear.jsp</file>
+            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/web/WEB-INF/jsp/vehiculo_consultar.jsp</file>
+            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/web/WEB-INF/jsp/vehiculo_editar.jsp</file>
+            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/src/java/controllers/VentaControllers.java</file>
+            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/src/java/controllers/PersonaControllers.java</file>
             <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/src/java/co/edu/uniminuto/pa/DAOs/VehiculoDAO.java</file>
             <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/src/java/controllers/VehiculoControllers.java</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/web/WEB-INF/jsp/persona_crear.jsp</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/src/java/co/edu/uniminuto/pa/DTOs/Vehiculo.java</file>
+            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/web/WEB-INF/jsp/vehiculo_crear.jsp</file>
+            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/web/WEB-INF/jsp/venta_consultar.jsp</file>
             <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/web/WEB-INF/jsp/persona_consultar.jsp</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/src/java/co/edu/uniminuto/pa/DTOs/Persona.java</file>
             <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/web/WEB-INF/jsp/index.jsp</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/src/java/co/edu/uniminuto/pa/bds/Test_MySqlDataSource.java</file>
+            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/web/WEB-INF/jsp/venta_crear.jsp</file>
+            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/SampleSpringApplication/src/java/co/edu/uniminuto/pa/DTOs/Venta.java</file>
         </group>
     </open-files>
 </project-private>

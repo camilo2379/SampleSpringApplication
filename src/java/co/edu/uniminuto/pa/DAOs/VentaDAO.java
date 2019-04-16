@@ -41,7 +41,7 @@ public class VentaDAO {
             pstmt.setString(5, v.getFecha());
             pstmt.setString(6, v.getId_persona());
             pstmt.setString(7, v.getId_vehiculo());
-           pstmt.setString(8, v.getTipo_garantia());
+           pstmt.setString(8, v.getId_garantia());
             
             pstmt.execute();
             
@@ -66,7 +66,7 @@ public class VentaDAO {
         try {
             Statement s = con.createStatement();
             ResultSet rs = s.executeQuery ("select numero, precio_total, descripcion,fecha,id_persona, "
-                    + " id_vehiculo,tipo_garantia, id_venta "
+                    + " id_vehiculo,id_garantia, id_venta "
                     + " from venta "
                     + " where "
                     + " numero='" + v.getNumero()+"'");
@@ -80,7 +80,7 @@ public class VentaDAO {
                 ven.setFecha(rs.getString(4));
                 ven.setId_persona(rs.getString(5));
                 ven.setId_vehiculo(rs.getString(6));
-                ven.setTipo_garantia(rs.getString(7));
+                ven.setId_garantia(rs.getString(7));
                 ven.setId(rs.getInt(8));
                 
                 datos.add(ven);
@@ -134,7 +134,7 @@ public class VentaDAO {
                     + " , fecha=?"
                     + " , id_persona=?"
                     + " , id_vehiculo=?"
-                    + ", tipo_garantia=?"
+                    + ", id_garantia=?"
                     + " where id_venta=?");
                         
             pstmt.setString(1, v.getNumero());
@@ -143,7 +143,7 @@ public class VentaDAO {
             pstmt.setString(4,v.getFecha());
             pstmt.setString(5, v.getId_persona());
             pstmt.setString(6,v.getId_vehiculo());
-            pstmt.setString(7,v.getTipo_garantia());
+            pstmt.setString(7,v.getId_garantia());
             pstmt.setInt(8, v.getId());
             
             pstmt.executeUpdate();

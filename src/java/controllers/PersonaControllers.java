@@ -27,14 +27,6 @@ import org.springframework.web.bind.support.SessionStatus;
 @Controller
 @RequestMapping("/")
 public class PersonaControllers {
- /*
-    @RequestMapping(method = RequestMethod.GET)
-    public String helloWorld(ModelMap modelMap) {
-        System.out.println("personaCrear");
-        modelMap.put("mensajePersona", "Pase por el controller de Persona");
-        return "persona_crear";
-    }
-    */
 @RequestMapping(method = RequestMethod.GET, value = "personaCrear.htm")
     public String processSubmit(HttpServletRequest req, SessionStatus status,ModelMap model) 
     {

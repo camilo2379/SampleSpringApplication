@@ -18,7 +18,7 @@ public class Venta {
             String fecha=null;
             String id_persona = null;
             String id_vehiculo = null;
-            String tipo_garantia=null;
+            String id_garantia=null;
            
      public int getId() {
         return id;
@@ -70,11 +70,11 @@ public class Venta {
     public void setFecha(String fecha) {
         this.fecha = fecha;
     }
-           public String getTipo_garantia() {
-        return tipo_garantia;
+           public String getId_garantia() {
+        return id_garantia;
     }
 
-    public void setTipo_garantia(String tipo_garantia) {
-        this.tipo_garantia = tipo_garantia;
+    public void setId_garantia(String id_garantia) {
+        this.id_garantia = id_garantia;
     }
 }

@@ -92,9 +92,17 @@
                               <li><a href="ventaEditar.htm">Editar</a></li>
                             </ul>
                           </li>
+                          <li class="has-children">
+                            <a >Garantia</a>
+                            <ul class="dropdown">
+                              <li><a href="garantiaCrear.htm">Registrar</a></li>
+                              <li><a href="garantiaConsultar.htm">Consultar</a></li>
+                              <li><a href="garantiaEditar.htm">Editar</a></li>
+                            </ul>
+                          </li>
                         </ul>
                       </li>
-                      <li><a href="../about.html">Nosotros</a></li>
+                     <li><a href="catalogo.htm">Catalogo</a></li>
                       <li><a href="../contact.html">Contacto</a></li>
                     </ul>
                   </div>
@@ -147,7 +155,7 @@
                   <div class="row form-group">
                 <div class="col-md-12 mb-3 mb-md-0">
                   <label class="font-weight-bold" for="name">Fecha</label>
-                  <input type="date" name="fecha" id="fullname" class="form-control" placeholder="Fecha">
+                  <input type="date" name="fecha" id="fullname" class="form-control" >
                 </div>
               </div>
                      
@@ -165,12 +173,12 @@
               </div>
                 <div class="row form-group">
                  <div class="col-md-12 mb-3 mb-md-0">
-                  <label class="font-weight-bold" for="name">Tipo de Grarantia</label>
+                  <label class="font-weight-bold" for="name">Tipo de Garantia</label>
                   <select  name="tipog" id="fullname" class="form-control" >
-                      <option selected="selected">20000km o 5 años</option>
-                      <option selected="selected">20000km</option>
-                       <option selected="selected">5 años</option>
-                       <option selected="selected">no tiene</option>
+                      <option selected="selected">1</option>
+                      <option selected="selected">2</option>
+                       <option selected="selected">3</option>
+                       <option selected="selected">4</option>
                   </select>   
                 </div>
                 </div>     
@@ -181,8 +189,9 @@
               </div>
             </div>
             </form>
+              <p>${mensaje}</p>
           </div>
-            <p>${mensaje}</p>
+            
 
             
           </div>

@@ -86,6 +86,14 @@
                               <li><a href="ventaEditar.htm">Editar</a></li>
                             </ul>
                           </li>
+                           <li class="has-children">
+                            <a >Garantia</a>
+                            <ul class="dropdown">
+                              <li><a href="garantiaCrear.htm">Registrar</a></li>
+                              <li><a href="garantiaConsultar.htm">Consultar</a></li>
+                              <li><a href="garantiaEditar.htm">Editar</a></li>
+                            </ul>
+                          </li>
                         </ul>
                         
                       </li>
@@ -318,7 +326,7 @@
             <div class="col-md-12"><h3 class="footer-heading mb-4 text-white">Social Icons</h3></div>
               <div class="col-md-12">
                 <p>
-                  <a href="#" class="pb-2 pr-2 pl-0"><span class="icon-facebook"></span></a>
+                  <a href="" class="pb-2 pr-2 pl-0"><span class="icon-facebook"></span></a>
                   <a href="#" class="p-2"><span class="icon-twitter"></span></a>
                   <a href="#" class="p-2"><span class="icon-instagram"></span></a>
                   <a href="#" class="p-2"><span class="icon-vimeo"></span></a>

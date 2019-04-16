@@ -89,9 +89,17 @@
                               <li><a href="ventaEditar.htm">Editar</a></li>
                             </ul>
                           </li>
+                          <li class="has-children">
+                            <a >Garantia</a>
+                            <ul class="dropdown">
+                              <li><a href="garantiaCrear.htm">Registrar</a></li>
+                              <li><a href="garantiaConsultar.htm">Consultar</a></li>
+                              <li><a href="garantiaEditar.htm">Editar</a></li>
+                            </ul>
+                          </li>
                         </ul>
                       </li>
-                      <li><a href="../about.html">Nosotros</a></li>
+                       <li><a href="catalogo.htm">Catalogo</a></li>
                       <li><a href="../contact.html">Contacto</a></li>
                     </ul>
                   </div>
@@ -153,7 +161,7 @@
 							<th>Fecha</th>
                                                         <th>Id Persona</th>
                                                         <th>Id Vehiculo</th>
-                                                        <th>Tipo Garantia</th>
+                                                        <th>Id Garantia</th>
 						</tr>
 					</thead>
 					</tbody>
@@ -165,7 +173,7 @@
                                         <td>${p.getFecha()}</td>
                                         <td>${p.getId_persona()}</td>
                                         <td>${p.getId_vehiculo()}</td>
-                                       <td>${p.getTipo_garantia()}</td>
+                                       <td>${p.getId_garantia()}</td>
                                                                                
                                     </tr>
                                 </c:forEach>

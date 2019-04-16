@@ -86,6 +86,14 @@
                               <li><a href="ventaEditar.htm">Editar</a></li>
                             </ul>
                           </li>
+                       <li class="has-children">
+                            <a >Garantia</a>
+                            <ul class="dropdown">
+                              <li><a href="garantiaCrear.htm">Registrar</a></li>
+                              <li><a href="garantiaConsultar.htm">Consultar</a></li>
+                              <li><a href="garantiaEditar.htm">Editar</a></li>
+                            </ul>
+                          </li>
                         </ul>
                         
                       </li>

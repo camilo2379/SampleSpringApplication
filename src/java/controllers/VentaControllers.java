@@ -68,7 +68,7 @@ public class VentaControllers {
         v.setId_vehiculo(vehiculo);
         v.setDescripcion(descripcion);
         v.setFecha(fecha);                                  
-        v.setTipo_garantia(tipog);  
+        v.setId_garantia(tipog);  
         boolean insert = vDao.crearVenta(v, MySqlDataSource.getConexionBD());
 
         Logger.getLogger(VentaControllers.class.getName()).log(Level.SEVERE, null, "Registrar + " + num + "-" + insert);
@@ -175,7 +175,7 @@ public class VentaControllers {
         v.setId_vehiculo(vehiculo);
         v.setDescripcion(descripcion);
         v.setFecha(fecha); 
-        v.setTipo_garantia(tipog);    
+        v.setId_garantia(tipog);    
         boolean res = vDao.editarVenta(v, MySqlDataSource.getConexionBD());                         
         
         if (res)

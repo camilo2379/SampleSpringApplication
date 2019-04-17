@@ -180,7 +180,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-5">
             <div class="hotel-room text-center">
-              <a href="#" class="d-block mb-0 thumbnail"><img src="images/img2.jpg" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/carro9.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0"><a href="#">Carro6</a></h3>
                 <strong class="price">$ 300000/ Mas Barato Imposible</strong>
@@ -225,7 +225,7 @@
           </div>
             <div class="col-md-6 col-lg-4 mb-5">
             <div class="hotel-room text-center">
-              <a href="#" class="d-block mb-0 thumbnail"><img src="images/catalogo5.jpg" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/catalogo56.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0"><a href="#">Carro11</a></h3>
                 <strong class="price">$ 300000/ Mas Barato Imposible</strong>

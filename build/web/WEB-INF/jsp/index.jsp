@@ -158,7 +158,7 @@
         <div class="row">
           <div class="col-md-6 col-lg-4 mb-5">
             <div class="hotel-room text-center">
-              <a href="#" class="d-block mb-0 thumbnail"><img src="images/carro4.jpg" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/catalogo1.jpeg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0"><a href="#">Marca</a></h3>
               </div>
@@ -166,7 +166,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-5">
             <div class="hotel-room text-center">
-              <a href="#" class="d-block mb-0 thumbnail"><img src="images/carro5.jpg" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/catalogo2.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0"><a href="#">Marca</a></h3>
               </div>
@@ -174,7 +174,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-5">
             <div class="hotel-room text-center">
-              <a href="#" class="d-block mb-0 thumbnail"><img src="images/carro6.jpg" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/catalogo3.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0"><a href="#">Marca</a></h3>
               </div>
@@ -199,7 +199,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-5">
             <div class="hotel-room text-center">
-              <a href="#" class="d-block mb-0 thumbnail"><img src="images/img2.jpg" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/catalogo8.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0"><a href="#">Marca</a></h3>
               </div>
